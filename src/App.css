@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=MuseoModerno:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@1,300;1,500&display=swap');
+*{
+  margin:0;
+}
+body{
+  font-family: "poopins",sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+button{
+  all: unset;
+  padding: 6px 16px;
+  height: 32px;
+  background: #AE445A;
+  color: white;
+  font-weight: 500;
+} 
+.content{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+
+}
+.content h1{
+  font-weight: 800;
+  line-height: 90px;
+  font-size: 108px;
+}
+.content p{
+  font-weight: 600;
+  color: #414141;
+  max-width: 400px;
+}
+.btn{
+  display: flex;
+  gap: 40px;
+}
+.second-btn{
+  background: transparent;
+  color: #414141;
+  border: 1px solid #414141 ;
+}
+.Availability{
+  font-size:14px ;
+  margin-bottom: 8px;
+}
+.brand-logo{
+  display: flex;
+  gap: 16px;
+}
